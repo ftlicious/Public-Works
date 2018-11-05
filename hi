@@ -1,0 +1,4 @@
+embed=discord.Embed(color=0xd631bc)
+embed.add_field(name=, value=Disregard., inline=False)
+embed.add_field(name=1. Rule 1, value=Test., inline=True)
+await self.bot.say(embed=embed)
